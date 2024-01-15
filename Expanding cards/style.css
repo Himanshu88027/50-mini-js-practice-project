@@ -1,0 +1,59 @@
+*{
+    font-family: Poppins;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+    
+}
+
+.panel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+    width: 5rem;
+    border: 10px solid rgb(148, 210, 255);
+    box-shadow: 0px 0px 25px rgb(143, 233, 255);
+    border-radius: 50px;
+    transition: all 1s ease;
+}
+
+.active{
+    width: 25rem;
+    transition: all 1s ease;
+}
+
+.pan-one{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e7/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.pan-two{
+    background-image: url('https://www.treehugger.com/thmb/nSp8ESJ1N6zq_bsTVL_MoSrKAqA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1273584292-cbcd5f85f4c646d58f7a7fa158dcaaeb.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.pan-three{
+    background-image: url('https://nsidc.org/sites/default/files/images/After%20a%20snow%20storm%2C%20the%20sun%20emerged%20revealing%20this%20beautiful%20scene%20on%20Cedar%20River%20Road%20west%20of%20Mount%20Vernon%2C%20IA..jpg');
+    background-size: cover;
+    background-position: center;
+}
+.pan-four{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e7/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.pan-five{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e7/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg');
+    background-size: cover;
+    background-position: center;
+}
