@@ -13,16 +13,16 @@ body{
     background-color: rgb(255, 154, 136);
 }
 
-.search{
+.search-container{
     position: relative;
     height: 50px;
 }
 
-.search{
+.search-continer{
     position: relative;
 }
 
-.search .input{
+.search-container .input{
     height: 50px;
     width: 50px;
     background-color: #fff;
@@ -33,7 +33,7 @@ body{
     transition: width 0.3s ease;
 }
 
-.btn{
+.search-btn{
     position: absolute;
     height: 50px;
     width: 50px;
@@ -47,15 +47,15 @@ body{
     transition: transform 0.3s ease;
 }
 
-.btn:focus,
+.search-btn:focus,
 .input:focus{
     outline: 2px solid rgb(255, 90, 90);
 }
 
-.search.active .input{
+.search-conatiner.active .input{
     width: 200px;
 }
 
-.search.active .btn{
+.search-container.active .search-btn{
     transform: translateX(205px);
 }
